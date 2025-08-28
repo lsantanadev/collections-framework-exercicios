@@ -22,3 +22,15 @@ Implemente os seguintes métodos:
 
 -> A solução deste desafio está no arquivo [catalogodelivros](https://github.com/lsantanadev/collections-framework-exercicios/blob/b84653105dbebce502cfaaeb476af182ec3f4aa9/src/src/main/java/List/catalogodelivros) 
 
+# Exercício 2 – Lista de Funcionários
+
+Crie uma classe `Funcionario` com atributos `nome`, `cargo` e `salario`.  
+Crie uma classe `Empresa` que possua uma lista encadeada de funcionários.
+
+Implemente os seguintes métodos:
+- `adicionarFuncionario(Funcionario funcionario)`
+- `removerFuncionario(String nome)`
+- `obterFuncionariosOrdenadosPorNome()`
+- `obterFuncionariosOrdenadosPorSalario()`  
+
+-> A solução deste desafio está no arquivo [listafuncionarios](https://github.com/lsantanadev/collections-framework-exercicios/blob/2cd534f0f7b15f069056671ac7edc93a0c0b273c/src/src/main/java/List/listafuncionarios)
