@@ -34,3 +34,14 @@ Implemente os seguintes métodos:
 - `obterFuncionariosOrdenadosPorSalario()`  
 
 -> A solução deste desafio está no arquivo [listafuncionarios](https://github.com/lsantanadev/collections-framework-exercicios/blob/2cd534f0f7b15f069056671ac7edc93a0c0b273c/src/src/main/java/List/listafuncionarios)
+
+# Exercício 3 – Catálogo de Produtos
+
+Crie uma classe `Produto` com atributos `id`, `nome` e `preco`.  
+Crie uma classe `Estoque` que possua uma lista de produtos.
+
+Implemente os seguintes métodos:
+- `adicionarProduto(Produto produto)`
+- `removerProduto(Long id)`
+- `buscarProdutoPorId(Long id)` usando busca binária.
+- `obterProdutosOrdenadosPorId()`  
