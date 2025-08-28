@@ -47,3 +47,16 @@ Implemente os seguintes métodos:
 - `obterProdutosOrdenadosPorId()`  
 
 -> A solução deste desafio está no arquivo [catalogodeprodutos](https://github.com/lsantanadev/collections-framework-exercicios/blob/5ab1b36e40727fb0ea4810d079bb57e71942d42a/src/src/main/java/List/catalogodeprodutos)
+
+# Exercício 4 – Sistema de Cursos
+
+Crie uma classe `Aluno` com atributos `nome` e `matricula`.  
+Crie uma classe `Curso` com atributos `nome`, `codigo` e uma lista de alunos.
+
+Implemente os seguintes métodos:
+- `adicionarAluno(Aluno aluno)`
+- `removerAluno(String matricula)`
+- `obterAlunosOrdenadosPorNome()`
+- `buscarAlunoPorMatricula(String matricula)` (usando busca binária) 
+
+-> A solução deste desafio está no arquivo [gerenciadordecursos](https://github.com/lsantanadev/collections-framework-exercicios/blob/9b7b823b2856feee17ef1c07fbd141a14b7152fc/src/src/main/java/List/gerenciadordecursos)
