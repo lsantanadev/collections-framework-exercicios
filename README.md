@@ -20,5 +20,5 @@ Implemente os seguintes métodos:
 - `obterLivrosOrdenadosPorAno()`
 - `obterTotalLivros()`
 
--> A solução deste desafio está no arquivo [catalogodelivros](./catalogolivros) 
+-> A solução deste desafio está no arquivo [catalogodelivros](src/main/java/List/catalogodelivros) 
 
