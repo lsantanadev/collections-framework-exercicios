@@ -1,5 +1,6 @@
 package List.catalogodelivros.test;
 
+import List.catalogodelivros.dominio.Biblioteca;
 import List.catalogodelivros.dominio.Livro;
 
 import java.util.ArrayList;
@@ -8,21 +9,24 @@ import java.util.List;
 
 public class LivroTest {
     public static void main(String[] args) {
-        List<Livro> acervo = new ArrayList<>();
+        Livro livro1 = new Livro("Entendendo Algoritmos", "Aditya Y.", 2017);
+        Livro livro2 = new Livro("Code Complete", "Steve McConnell", 1993);
+        Livro livro3 = new Livro("The Pragmatic Programmer", "Andrew Hunt", 1999);
+        Livro livro4 = new Livro("Código Limpo", "Uncle Bob", 2008);
+        Livro livro5 = new Livro("Estrutura e Interpretação de Programas de Computador", "Harold Abelson", 1984);
+        Livro livro6 = new Livro("Sistemas Operacionais Modernos", "Tenenbaum", 2001);
 
-        acervo.add(new Livro("Entendendo Algoritmos", "Aditya Y.", 2017));
-        acervo.add(new Livro("Code Complete", "Steve McConnell", 1993));
-        acervo.add(new Livro("The Pragmatic Programmer", "Andrew Hunt", 1999));
-        acervo.add(new Livro("Código Limpo", "Uncle Bob", 2008));
-        acervo.add(new Livro("Estrutura e Interpretação de Programas de Computador", "Harold Abelson", 1984));
-        acervo.add(new Livro("Sistemas Operacionais Modernos", "Tenenbaum", 2001));
+        Biblioteca biblioteca = new Biblioteca();
+        biblioteca.adicionarLivro(livro1);
+        biblioteca.adicionarLivro(livro2);
+        biblioteca.adicionarLivro(livro3);
+        biblioteca.adicionarLivro(livro4);
+        biblioteca.adicionarLivro(livro5);
+        biblioteca.adicionarLivro(livro6);
 
-        Collections.sort(acervo);
+        biblioteca.removerLivro(livro1);
+        biblioteca.obterLivroOrdenadosPorAno();
 
-        //imprime por ano de publicação
-        for (Livro livro : acervo) {
-            System.out.println(livro);
-        }
-
+        biblioteca.obterTotalLivros();
     }
 }
