@@ -15,13 +15,7 @@ class NomeComparator implements Comparator<Funcionario> {
 class SalarioOrdenadoComparator implements Comparator<Funcionario> {
     @Override
     public int compare(Funcionario f1, Funcionario f2) {
-        if (f1.getSALARIO() > f2.getSALARIO()) {
-            return -1;
-        } else if (f1.getSALARIO() == f2.getSALARIO()) {
-            return 0;
-        } else {
-            return 1;
-        }
+        return Double.compare(f2.getSALARIO(), f1.getSALARIO());
     }
 }
 
@@ -38,6 +32,8 @@ public class EmpresaTest01 {
         empresa.adicionarFuncionario(f1);
         empresa.adicionarFuncionario(f2);
         empresa.adicionarFuncionario(f3);
+
+        empresa.removerFuncionario("leonardo");
 
         System.out.println("Funcionarios ordenados por nome: ");
         empresa.getFuncionarioList().sort(nomeComparator);
