@@ -45,3 +45,5 @@ Implemente os seguintes métodos:
 - `removerProduto(Long id)`
 - `buscarProdutoPorId(Long id)` usando busca binária.
 - `obterProdutosOrdenadosPorId()`  
+
+-> A solução deste desafio está no arquivo [catalogodeprodutos](https://github.com/lsantanadev/collections-framework-exercicios/blob/5ab1b36e40727fb0ea4810d079bb57e71942d42a/src/src/main/java/List/catalogodeprodutos)
