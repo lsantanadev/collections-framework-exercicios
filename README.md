@@ -116,4 +116,4 @@ específico (entre uma data/hora inicial e uma final). Por fim, imprima o result
 os eventos do intervalo foram selecionados.
 
 -> A solução deste desafio está no
-arquivo [agendadeeventos]()
+arquivo [agendadeeventos](https://github.com/lsantanadev/collections-framework-exercicios/blob/30e08cae878863f2ac1495850ed8c0acdd24d3c3/src/src/main/java/Set/agendadeeventos)
