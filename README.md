@@ -102,3 +102,18 @@ A partir de uma `List` de `String` que simula um log de acessos a páginas web (
 `LinkedHashSet` para gerar um relatório do caminho de navegação único. O resultado final deve manter a ordem em que cada
 página foi visitada pela primeira vez, removendo todas as visitas subsequentes à mesma página. Ao final, imprima a
 coleção resultante para verificar a ordem e a unicidade dos acessos.
+
+-> A solução deste desafio está no
+arquivo [caminhodenavegacao](https://github.com/lsantanadev/collections-framework-exercicios/blob/e40f5282b491c951a77e74023d28aea1977ba699/src/src/main/java/Set/caminhodenavegacao/test)
+
+#### Exercício 4: Consultas de Intervalo com NavigableSet
+
+Crie uma classe `Evento` com os atributos `nome` (String) e `dataHora` (`LocalDateTime`), fazendo-a implementar a
+interface `Comparable` para que a ordenação natural dos objetos seja pela data/hora. Em uma classe de teste, popule um
+`TreeSet<Evento>` com vários eventos em datas e horários diferentes. Utilize o método `subSet()` da interface
+`NavigableSet` para criar uma consulta que retorne apenas os eventos contidos dentro de um intervalo de tempo
+específico (entre uma data/hora inicial e uma final). Por fim, imprima o resultado da consulta para validar que apenas
+os eventos do intervalo foram selecionados.
+
+-> A solução deste desafio está no
+arquivo [agendadeeventos]()
