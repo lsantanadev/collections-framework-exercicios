@@ -95,3 +95,10 @@ coleção para verificar se o ranking foi gerado corretamente.
 
 -> A solução deste desafio está no
 arquivo [rankingdealunos](https://github.com/lsantanadev/collections-framework-exercicios/blob/360bf0cadab6f9f82c245c08fc56d4fd2be43aa9/src/src/main/java/Set/rankingdealunos)
+
+#### Exercício 3: Caminho de Navegação Único com LinkedHashSet
+
+A partir de uma `List` de `String` que simula um log de acessos a páginas web (com duplicatas), utilize um
+`LinkedHashSet` para gerar um relatório do caminho de navegação único. O resultado final deve manter a ordem em que cada
+página foi visitada pela primeira vez, removendo todas as visitas subsequentes à mesma página. Ao final, imprima a
+coleção resultante para verificar a ordem e a unicidade dos acessos.
