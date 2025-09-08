@@ -83,4 +83,15 @@ de teste para instanciar um `HashSet<Contato>`, adicione diferentes objetos `Con
 duplicado, e imprima o resultado final para confirmar que a duplicata não foi inserida.
 
 -> A solução deste desafio está no
-arquivo [gerenciadordecontatosunicos]()
+arquivo [gerenciadordecontatosunicos](https://github.com/lsantanadev/collections-framework-exercicios/blob/f3a70a330b9ff46b871ed17c868b87f4293093d5/src/src/main/java/Set/gerenciadordecontatosunicos)
+
+#### Exercício 2: Ranking de Alunos
+
+Crie uma classe `Aluno` com os atributos `nome` (String) e `nota` (double). Em seguida, crie uma classe separada que
+implemente `Comparator<Aluno>` para definir uma regra de ordenação customizada. A ordenação deve ser pela **maior nota
+** (decrescente) e, como critério de desempate, pelo **nome em ordem alfabética** (crescente). Por fim, em uma classe de
+teste, instancie um `TreeSet` passando seu `Comparator` no construtor, adicione vários objetos `Aluno` e imprima a
+coleção para verificar se o ranking foi gerado corretamente.
+
+-> A solução deste desafio está no
+arquivo [rankingdealunos](https://github.com/lsantanadev/collections-framework-exercicios/blob/360bf0cadab6f9f82c245c08fc56d4fd2be43aa9/src/src/main/java/Set/rankingdealunos)
