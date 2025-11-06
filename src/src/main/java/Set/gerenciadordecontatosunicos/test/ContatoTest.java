@@ -7,7 +7,7 @@ import java.util.Set;
 
 public class ContatoTest {
     public static void main(String[] args) {
-        Set contatos = new HashSet<Contato>();
+        Set<Contato> contatos = new HashSet<>();
 
         Contato c1 = new Contato("Ana", "ana@email.com");
         Contato c2 = new Contato("Leandro", "leandro@email.com");
@@ -21,9 +21,7 @@ public class ContatoTest {
         contatos.add(c4);
         contatos.add(c5);
 
-        for (Object contato : contatos) {
-            System.out.println(contato);
-        }
+        contatos.forEach(System.out::println);
 
 
     }

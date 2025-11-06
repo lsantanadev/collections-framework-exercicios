@@ -4,7 +4,6 @@ import Set.agendadeeventos.dominio.Evento;
 
 import java.time.LocalDateTime;
 import java.util.NavigableSet;
-import java.util.Set;
 import java.util.TreeSet;
 
 public class EventoTest {
