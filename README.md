@@ -117,3 +117,16 @@ os eventos do intervalo foram selecionados.
 
 -> A solução deste desafio está no
 arquivo [agendadeeventos](https://github.com/lsantanadev/collections-framework-exercicios/blob/30e08cae878863f2ac1495850ed8c0acdd24d3c3/src/src/main/java/Set/agendadeeventos)
+
+### Map
+
+#### Exercício 1 - Dicionário Inteligente
+
+Crie um programa que funcione como um mini corretor ortográfico, utilizando um HashMap<String, String> para armazenar pares de palavras digitadas de forma errada e suas correções.
+O programa deve:
+1. Permitir ao usuário digitar uma palavra incorreta e mostrar a forma correta (caso exista no dicionário).
+2. Exibir todas as correções disponíveis (usando entrySet()).
+3. Permitir adicionar novas correções sem sobrescrever as existentes, utilizando putIfAbsent().
+
+-> A solução deste desafio está no
+arquivo [DicionarioInteligente]()
