@@ -1,4 +1,4 @@
-package Map.dominio;
+package Map.biblioteca.dominio;
 
 import java.util.Objects;
 
