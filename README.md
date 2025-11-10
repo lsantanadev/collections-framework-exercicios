@@ -129,4 +129,17 @@ O programa deve:
 3. Permitir adicionar novas correções sem sobrescrever as existentes, utilizando putIfAbsent().
 
 -> A solução deste desafio está no
-arquivo [DicionarioInteligente](https://github.com/lsantanadev/collections-framework-exercicios/blob/97a41b16ad6e6e7d9b91f54713372adfef180290/src/src/main/java/Map/dicionario/test/DicionarioInteligente.java)
+arquivo [dicionariointeligente](https://github.com/lsantanadev/collections-framework-exercicios/blob/97a41b16ad6e6e7d9b91f54713372adfef180290/src/src/main/java/Map/dicionariointeligente/DicionarioInteligente.java)
+
+### Exercício 2 - Bliblioteca de Mangás
+
+Crie um programa que simule uma biblioteca de mangás utilizando Map<Consumidor, List<Manga>>.
+O programa deve:
+1. Criar dois ou mais consumidores.
+2. Criar vários objetos Manga (id, nome, preço).
+3. Associar uma lista de mangás para cada consumidor.
+4. Exibir todos os consumidores e suas coleções de mangás (usando entrySet() e for-each aninhados).
+5. Exibir o total gasto por cada consumidor.
+
+-> A solução deste desafio está no
+arquivo [biblioteca](https://github.com/lsantanadev/collections-framework-exercicios/blob/63b703821a1809a6b463e978f001ea91ae8df971/src/src/main/java/Map/biblioteca)
