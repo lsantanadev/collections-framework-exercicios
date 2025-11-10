@@ -1,4 +1,4 @@
-package Map.dicionario.test;
+package Map.dicionariointeligente;
 
 import java.util.HashMap;
 import java.util.Map;
