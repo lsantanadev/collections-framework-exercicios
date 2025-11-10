@@ -1,7 +1,7 @@
-package Map.test;
+package Map.biblioteca.test;
 
-import Map.dominio.Consumidor;
-import Map.dominio.Manga;
+import Map.biblioteca.dominio.Consumidor;
+import Map.biblioteca.dominio.Manga;
 
 import java.util.HashMap;
 import java.util.List;
